@@ -14,7 +14,7 @@ def binary_search(alist, item):
     while first <= last and not found:
         mid = (first + last) // 2
         if item == alist[mid]:
-           found = True
+            found = True
         elif item > alist[mid]:
             first = mid + 1
         else:
@@ -23,6 +23,8 @@ def binary_search(alist, item):
     return found
 
 # recursive implementation
+
+
 def binary_search_recurive(alist, item):
     # divide and counquer
     # initial condition
